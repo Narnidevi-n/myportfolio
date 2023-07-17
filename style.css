@@ -1,0 +1,61 @@
+.navbar{
+    background-color: black;
+    opacity: .6;
+}
+.navbar-brand{
+    font-family: Brush Script MT;
+    font-size: 25px;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("./images/img1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.bannerDesc{
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.container{
+    font-family: Cambria Math;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: lavender;
+    border: 2px solid black; 
+}
+
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid black; 
+}
+
+.card-img-top{
+    height: 50vh;
+}
